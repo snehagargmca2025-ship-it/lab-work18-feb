@@ -1,0 +1,14 @@
+# Total students
+total_students = 125
+
+# Students per class
+students_per_class = 30
+
+# Number of full classes
+full_classes = total_students // students_per_class
+
+# Remaining students
+remaining_students = total_students % students_per_class
+
+print("Number of full classes =", full_classes)
+print("Remaining students without class =", remaining_students)
