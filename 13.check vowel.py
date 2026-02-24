@@ -1,0 +1,3 @@
+ch = input().lower()
+
+if
